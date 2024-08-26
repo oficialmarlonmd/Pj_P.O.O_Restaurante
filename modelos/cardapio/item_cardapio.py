@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-class IntemCardapio():
+class IntemCardapio(ABC):
     
     def __init__(self, nome, preco=0.0):
         self._nome = nome
